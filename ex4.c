@@ -22,4 +22,7 @@ int main(){
     }
 
     printf("Heads: %d, Tails: %d\n",count,3-count);
+
+    if(count>=2)printf("You won\n");
+    else printf("You lost\n");
 }
