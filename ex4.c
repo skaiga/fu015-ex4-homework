@@ -5,8 +5,13 @@
 int main(){
     int judge;
     int count=0;
+    char name[10];
 
     srand((unsigned int)time(NULL));
+
+    printf("Who are you\n");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
 
     printf("Tossing a coin...\n");
 
